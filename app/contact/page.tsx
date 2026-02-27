@@ -35,7 +35,7 @@ export default function Contact() {
 
           <div className="mb-6">
             <label className="block text-gray-300 font-semibold mb-2">Message</label>
-            <textarea required rows={6} className="w-full bg-slate-900 border border-gray-700 text-white p-3 rounded focus:border-blue-400 outline-none" placeholder="Tell me about your project..." />
+            <textarea required rows={6} className="w-full bg-slate-900 border border-gray-700 text-white p-3 rounded focus:border-blue-400 outline-none" placeholder="Tell me about your project&hellip;" />
           </div>
 
           <button type="submit" className="w-full px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded transition">
@@ -43,7 +43,7 @@ export default function Contact() {
           </button>
 
           {submitted && (
-            <p className="mt-4 text-center text-green-400 font-semibold">✓ Message sent! I'll get back to you soon.</p>
+            <p className="mt-4 text-center text-green-400 font-semibold">✓ Message sent! I&apos;ll get back to you soon.</p>
           )}
         </form>
       </div>
