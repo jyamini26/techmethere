@@ -170,10 +170,7 @@ export default function Portfolio() {
             Let&apos;s discuss how we can help modernize your infrastructure and automate your operations.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a href="/contact" className="btn-primary">
-              Start a Conversation
-            </a>
-            <a href="/services" className="btn-secondary">
+            <a href="/services" className="btn-primary">
               View All Services
             </a>
           </div>

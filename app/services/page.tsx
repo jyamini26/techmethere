@@ -184,10 +184,10 @@ export default function Services() {
               Ready to modernize your infrastructure?
             </h2>
             <p className="text-gray-400 mb-8 max-w-xl mx-auto">
-              Let&apos;s discuss how Syzen.ai can help transform your operations with intelligent automation.
+              Connect on LinkedIn to discuss how Syzen.ai can help transform your operations.
             </p>
-            <a href="/contact" className="btn-primary inline-block">
-              Schedule a Consultation
+            <a href="https://linkedin.com/in/justinyamini" target="_blank" rel="noopener noreferrer" className="btn-primary inline-block">
+              Connect on LinkedIn
             </a>
           </div>
         </div>

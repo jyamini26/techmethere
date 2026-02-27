@@ -68,8 +68,8 @@ export default function RespondEDU() {
             </p>
 
             <div className="flex flex-wrap gap-4">
-              <a href="/contact" className="btn-primary">
-                Learn More
+              <a href="https://www.respondedu.com" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                Visit Website
               </a>
               <a href="#features" className="btn-secondary">
                 See Features
@@ -202,10 +202,10 @@ export default function RespondEDU() {
               Interested in Respond EDU?
             </h2>
             <p className="text-gray-400 mb-8 max-w-xl mx-auto">
-              Whether you&apos;re an educator, administrator, or potential partner, we&apos;d love to hear from you.
+              Whether you&apos;re an educator, administrator, or potential partner, visit our website to learn more.
             </p>
-            <a href="/contact" className="btn-primary inline-block">
-              Get in Touch
+            <a href="https://www.respondedu.com" target="_blank" rel="noopener noreferrer" className="btn-primary inline-block">
+              Visit Respond EDU
             </a>
           </div>
         </div>

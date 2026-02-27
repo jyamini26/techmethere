@@ -146,8 +146,8 @@ export default function Home() {
           <p className="text-lg text-gray-400 mb-10 max-w-2xl mx-auto">
             Let&apos;s discuss how AI automation and modern infrastructure can accelerate your business.
           </p>
-          <a href="/contact" className="btn-primary inline-block">
-            Get in Touch
+          <a href="/services" className="btn-primary inline-block">
+            Explore Services
           </a>
         </div>
       </section>
