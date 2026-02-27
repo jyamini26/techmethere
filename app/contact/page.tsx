@@ -1,51 +1,24 @@
-'use client'
-
-import { useState } from 'react'
-
 export default function Contact() {
-  const [submitted, setSubmitted] = useState(false)
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setSubmitted(true)
-    setTimeout(() => setSubmitted(false), 5000)
-  }
-
   return (
     <div className="min-h-screen py-32">
-      <div className="max-w-2xl mx-auto px-4">
-        <h1 className="text-5xl font-bold mb-8 cyber-gradient text-center">Get in Touch</h1>
-        <p className="text-xl text-gray-300 mb-12 text-center">Let's discuss how I can help transform your operations.</p>
+      <div className="max-w-2xl mx-auto px-4 text-center">
+        <h1 className="text-5xl font-bold mb-8 cyber-gradient">Get in Touch</h1>
+        <p className="text-xl text-gray-300 mb-12">Interested in working together? Let&apos;s connect.</p>
         
-        <form onSubmit={handleSubmit} className="bg-slate-950 border border-gray-700 p-8 rounded">
-          <div className="mb-6">
-            <label className="block text-gray-300 font-semibold mb-2">Name</label>
-            <input type="text" required className="w-full bg-slate-900 border border-gray-700 text-white p-3 rounded focus:border-blue-400 outline-none" placeholder="Your name" />
+        <div className="bg-slate-950 border border-gray-700 p-12 rounded">
+          <p className="text-lg text-gray-300 mb-6">Reach out directly:</p>
+          <a href="mailto:justin@techmethere.com" className="text-3xl font-bold text-blue-400 hover:text-blue-300 break-all">
+            justin@techmethere.com
+          </a>
+          
+          <div className="mt-12 pt-12 border-t border-gray-700">
+            <p className="text-gray-400 mb-6">Or connect on:</p>
+            <div className="flex gap-6 justify-center">
+              <a href="https://github.com/jyamini26" className="text-blue-400 hover:text-blue-300">GitHub</a>
+              <a href="https://linkedin.com/in/justinyamini" className="text-blue-400 hover:text-blue-300">LinkedIn</a>
+            </div>
           </div>
-
-          <div className="mb-6">
-            <label className="block text-gray-300 font-semibold mb-2">Email</label>
-            <input type="email" required className="w-full bg-slate-900 border border-gray-700 text-white p-3 rounded focus:border-blue-400 outline-none" placeholder="your@email.com" />
-          </div>
-
-          <div className="mb-6">
-            <label className="block text-gray-300 font-semibold mb-2">Company</label>
-            <input type="text" className="w-full bg-slate-900 border border-gray-700 text-white p-3 rounded focus:border-blue-400 outline-none" placeholder="Your company" />
-          </div>
-
-          <div className="mb-6">
-            <label className="block text-gray-300 font-semibold mb-2">Message</label>
-            <textarea required rows={6} className="w-full bg-slate-900 border border-gray-700 text-white p-3 rounded focus:border-blue-400 outline-none" placeholder="Tell me about your project&hellip;" />
-          </div>
-
-          <button type="submit" className="w-full px-8 py-3 bg-blue-600 hover:bg-blue-500 text-white font-bold rounded transition">
-            Send Message
-          </button>
-
-          {submitted && (
-            <p className="mt-4 text-center text-green-400 font-semibold">✓ Message sent! I&apos;ll get back to you soon.</p>
-          )}
-        </form>
+        </div>
       </div>
     </div>
   )
